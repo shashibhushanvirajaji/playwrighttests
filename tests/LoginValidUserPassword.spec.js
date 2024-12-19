@@ -1,5 +1,5 @@
-import { test, expect, devices } from '@playwright/test';
-import { use } from '../../playwright.config';
+import { test } from '@playwright/test';
+
 
 test.use({
   viewport: {

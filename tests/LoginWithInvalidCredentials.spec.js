@@ -1,6 +1,4 @@
-import { test, expect, devices } from '@playwright/test';
-import { use } from '../../playwright.config';
-
+import { test, expect } from '@playwright/test';
 
 
 test('Test Case 3: Login User with incorrect email and password', async ({ page }) => {
