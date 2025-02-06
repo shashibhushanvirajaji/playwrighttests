@@ -27,7 +27,7 @@ test.describe('automation excercise tests', () => {
         await page.locator("//input[@data-qa='signup-email']").fill(faker.internet.email())
 
         await page.getByRole('button', { name: 'Signup' }).click()
-        await page.waitForTimeout(2000)
+        await page.waitForTimeout(4000)
 
         await page.getByLabel('Mr.').check();
         await page.getByLabel('Password *').click();
