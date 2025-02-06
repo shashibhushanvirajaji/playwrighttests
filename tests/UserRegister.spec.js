@@ -9,7 +9,7 @@ test.describe('automation excercise tests', () => {
 
     test.beforeEach(async ({ page }) => {
 
-        await page.goto('http://automationexercise.com')
+        await page.goto('/')
     })
 
     test('Test Case 1: Register User', async ({ page }) => {
