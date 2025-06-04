@@ -1,0 +1,8 @@
+Starting of the test
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 1493,
+  [Symbol(trigger_async_id_symbol)]: 0,
+  [Symbol(kResourceStore)]: undefined
+}
+Ending of the test
