@@ -35,7 +35,7 @@ module.exports = defineConfig({
       Accept: "application/json",
       "Content-Type": "application/json"
     },
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'on',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
